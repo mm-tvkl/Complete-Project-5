@@ -1,0 +1,49 @@
+header{
+    background-image: url("../img/header-img/header-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+.main-badge{
+    background-color: $color-badge;
+    color: $color-text-badge;
+    font-size: .7rem;
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 2px solid $color-badge;
+    font-weight: 900;
+}
+
+.main-color{
+    color: $color-title;
+}
+
+.btn-main{
+    background-color: $color-btn;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid $color-btn;
+}
+
+.btn-main:hover{
+    background-color: $color-btn;
+    color: white;
+}
+
+.btn-main:focus{
+    box-shadow: none;
+}
+
+.btn-outline-main{
+    background-color: transparent;
+    border: 2px solid $color-btn;
+    color: $color-btn;
+    font-size: 1rem;
+}
+
+.btn-outline-main:hover{
+    background-color: $color-btn;
+    border: 2px solid $color-btn;
+    color: white;
+}
