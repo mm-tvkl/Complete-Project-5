@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,CAAC,AAAA,CACG,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,OAAO,CAC5B",
+    "mappings": "AGAA,AAAA,SAAS,AAAA,CACL,gBAAgB,CFAP,OAAO,CECnB,AAED,AAEQ,GAFL,CACC,SAAS,CACL,CAAC,AAAA,CACG,SAAS,CAAE,KAAK,CACnB,AHJT,AAAA,CAAC,AAAA,CACG,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,OAAO,CAC5B",
     "sources": [
         "../scss/main.scss",
         "../scss/_variable.scss",
-        "../scss/_font.scss"
+        "../scss/_font.scss",
+        "../scss/_navbar.scss"
     ],
     "names": [],
     "file": "main.min.css"
