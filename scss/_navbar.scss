@@ -9,3 +9,11 @@ nav{
         }
     }
 }
+
+.menu-btn:hover + ul , .menu-btn + ul:hover{
+    display: block;
+}
+
+.dropdown-item:active{
+    background-color: $color-text-badge;
+}
