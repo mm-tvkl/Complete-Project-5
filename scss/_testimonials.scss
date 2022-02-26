@@ -1,0 +1,6 @@
+.card-hover-2{
+    @include transition(border-color 400ms);
+    &:hover{
+        border-color: $color-btn;
+    }
+}
