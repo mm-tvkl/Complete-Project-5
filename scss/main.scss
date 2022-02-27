@@ -23,3 +23,24 @@ body{
 .text-main{
     color: $color-title;
 }
+
+@media screen and (max-width:830px){
+    .nav-link{
+        font-size: 13px !important;
+    }
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler{
+    background-color: #09146e;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.navbar-toggler i{
+    color: white !important;
+    font-size: 30px;
+}
