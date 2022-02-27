@@ -1,0 +1,11 @@
+.m-input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #cccccc;
+    background-color: transparent;
+}
+
+.m-input:focus{
+    box-shadow: none;
+    border: 2px solid $color-title;
+}
