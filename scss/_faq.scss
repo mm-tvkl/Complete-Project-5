@@ -1,0 +1,20 @@
+.accordion-button[aria-expanded="true"]{
+    background-color: $color-title;
+    color: white;
+    border: 2px solid $color-title;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.accordion-button[aria-expanded="false"]{
+    border-radius: 10px 10px 10px 10px !important;
+    border: 2px solid $color-title;
+    background-color: white;
+    color: black;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-item{
+    border-radius: 10px;
+}
